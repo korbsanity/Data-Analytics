@@ -16,7 +16,7 @@ This project thoroughly analyzes the available data and provides insights for th
 
 The main database structure as seen below consists of customers, employees, orders, shippers, categories, order_details and products. A description of each table as is follows:
 
-![Untitled Diagram.drawio.png](Readme%201f8f00a5193d42bda92aaf0e21e0774f/Untitled_Diagram.drawio.png)
+![Untitled_Diagram drawio](https://github.com/user-attachments/assets/de8b5bba-4f01-49c6-a935-4771754d978c)
 
 - **customers** - contains details for all the customers. *string_field_0* corresponds to the customer ID of the orders table.
 - **orders** - contains transactional (including logistics) details for the executed orders.
@@ -35,7 +35,7 @@ The company has shown an upward trend in sales hitting a significant mark on sal
 
 An interactive tableau sales dashboard of some key metrics are shown below and can be manipulated on [this link](https://public.tableau.com/views/NorthwindTraders_17265654955170/main_db?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link). 
 
-![main_db.png](Readme%201f8f00a5193d42bda92aaf0e21e0774f/main_db.png)
+![main_db](https://github.com/user-attachments/assets/27bc3a89-1dd0-46e0-b7e1-8e5f801b7e44)
 
 ---
 
@@ -65,12 +65,12 @@ An interactive tableau sales dashboard of some key metrics are shown below and c
         - **Tofu and Longlife Tofu**: In the produce category, these products recorded the lowest sales, with a combined total of $11,194, representing 0.8% of total sales.
         - The following products meanwhile, belong to the [bottom 20%](https://gist.github.com/korbsanity/457dead6ae8d8fa4ab8b5b89553b7214) of total product sales and should be considered for discontinuation.
             
-            ![image.png](Readme%201f8f00a5193d42bda92aaf0e21e0774f/image.png)
+            <img width="385" alt="image" src="https://github.com/user-attachments/assets/21702c8c-cf1d-4a66-b59a-6993fbdc749e">
             
 - **Discontinued Products:** Upon analyzing discontinued products, it was [**found**](https://gist.github.com/korbsanity/b3c0251b3e5d3e47619d6ad4f5e73e56) that **Thüringer Rostbratwurst** and **Alice Mutton** had made significant contributions to total sales before being discontinued, with sales of $87,736.40 (6.47% of total) and $35,482.20 (2.62% of total) respectively.
     - **Thüringer Rostbratwurst** is also the product with the second-most total sales overall.
 
-![image.png](Readme%201f8f00a5193d42bda92aaf0e21e0774f/image%201.png)
+<img width="634" alt="image 1" src="https://github.com/user-attachments/assets/18930d8b-5ca2-4e51-95e7-d08e652920f0">
 
 **Customers**
 
@@ -84,12 +84,12 @@ An interactive tableau sales dashboard of some key metrics are shown below and c
         - Primarily buys Beverages and Confections, with $38,271 spent on Beverages and $18,634 on Confections.
         - Had a record high sales of beverages in February 2015 ($17,250)
 
-![image.png](Readme%201f8f00a5193d42bda92aaf0e21e0774f/image%202.png)
+<img width="856" alt="image 2" src="https://github.com/user-attachments/assets/c887958e-93a4-4493-9435-b96005129aea">
 
 - **Customer Lifetime Value (CLV)** - CLV was also [computed](https://gist.github.com/korbsanity/396b9dce94a1620673927ea9ede57cf6) which is the metric which estimates the lifetime value of a customer based on their total sales and order frequency. The following tops out of 92 companies/customers listed in the dataset.
     - Targeted promotions, discounts or loyalty perks can be offered to the companies with the highest CLVs. The utmost customer support should also be maintained for these customer's satisfaction.
     
-    ![image.png](Readme%201f8f00a5193d42bda92aaf0e21e0774f/image%203.png)
+    ![image 3](https://github.com/user-attachments/assets/0286bf2f-258f-4d9e-aebb-a696da9b89ac)
     
 
 **Geographical Sales Analysis**
@@ -100,7 +100,7 @@ An interactive tableau sales dashboard of some key metrics are shown below and c
 - **USA**: Leads in overall sales and is the top global consumer of beverages.
     - Boise in Idaho has significant amount of sales in Meat & Poultry
 
-![image.png](Readme%201f8f00a5193d42bda92aaf0e21e0774f/image%204.png)
+![image 4](https://github.com/user-attachments/assets/b5ed5f62-920f-49bd-b73e-ac7f412366d2)
 
 **Europe shows similar trends with some outliers**:
 
@@ -111,7 +111,7 @@ An interactive tableau sales dashboard of some key metrics are shown below and c
 - **Germany**: Dominates beverage sales, ranking second worldwide, and is the top consumer of Dairy.
     - In February 2015, $17,295 worth of beverages were sold, marking the highest sales month.
 
-![image.png](Readme%201f8f00a5193d42bda92aaf0e21e0774f/image%205.png)
+![image 5](https://github.com/user-attachments/assets/8f59a89a-9988-4b5c-b90e-3efb9e8bf6e9)
 
 ---
 
